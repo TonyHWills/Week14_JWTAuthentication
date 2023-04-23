@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Group1A4.Data;
 using Group1A4.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Group1A4.Controllers
 {
@@ -20,7 +21,7 @@ namespace Group1A4.Controllers
         {
             _context = context;
         }
-
+        [Authorize]
         // GET: api/Classes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Class>>> GetClasses()

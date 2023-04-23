@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hungr\\Desktop\\C#\\Week11\\Group1A4\\Group1A4\\Group1A4.csproj": {}
+    "C:\\Users\\TonyW\\OneDrive\\Desktop\\New folder (4)\\Group1A4\\Group1A4\\Group1A4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hungr\\Desktop\\C#\\Week11\\Group1A4\\Group1A4\\Group1A4.csproj": {
+    "C:\\Users\\TonyW\\OneDrive\\Desktop\\New folder (4)\\Group1A4\\Group1A4\\Group1A4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hungr\\Desktop\\C#\\Week11\\Group1A4\\Group1A4\\Group1A4.csproj",
+        "projectUniqueName": "C:\\Users\\TonyW\\OneDrive\\Desktop\\New folder (4)\\Group1A4\\Group1A4\\Group1A4.csproj",
         "projectName": "Group1A4",
-        "projectPath": "C:\\Users\\hungr\\Desktop\\C#\\Week11\\Group1A4\\Group1A4\\Group1A4.csproj",
-        "packagesPath": "C:\\Users\\hungr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hungr\\Desktop\\C#\\Week11\\Group1A4\\Group1A4\\obj\\",
+        "projectPath": "C:\\Users\\TonyW\\OneDrive\\Desktop\\New folder (4)\\Group1A4\\Group1A4\\Group1A4.csproj",
+        "packagesPath": "C:\\Users\\TonyW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TonyW\\OneDrive\\Desktop\\New folder (4)\\Group1A4\\Group1A4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hungr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TonyW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.4, )"
@@ -93,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

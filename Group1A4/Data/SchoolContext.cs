@@ -30,13 +30,13 @@ namespace Group1A4.Data
             {
                 entity.ToTable("Class");
 
-                entity.HasIndex(e => e.CourseId, "UQ__Class__8F1EF7AFC5759798")
+                entity.HasIndex(e => e.CourseId, "UQ__Class__8F1EF7AF9D502EE1")
                     .IsUnique();
 
-                entity.HasIndex(e => e.InstructorId, "UQ__Class__A1EF56E98BF982CC")
+                entity.HasIndex(e => e.InstructorId, "UQ__Class__A1EF56E9D429AFC7")
                     .IsUnique();
 
-                entity.HasIndex(e => e.ClassId, "UQ__Class__FDF47987BD1F13FA")
+                entity.HasIndex(e => e.ClassId, "UQ__Class__FDF479873F844D8F")
                     .IsUnique();
 
                 entity.Property(e => e.ClassId)
@@ -72,10 +72,10 @@ namespace Group1A4.Data
             {
                 entity.ToTable("Course");
 
-                entity.HasIndex(e => e.StudentId, "UQ__Course__2A33069B379EF353")
+                entity.HasIndex(e => e.StudentId, "UQ__Course__2A33069B5C7F23FD")
                     .IsUnique();
 
-                entity.HasIndex(e => e.CourseId, "UQ__Course__8F1EF7AF77FE59EE")
+                entity.HasIndex(e => e.CourseId, "UQ__Course__8F1EF7AF601A5572")
                     .IsUnique();
 
                 entity.Property(e => e.CourseId)
@@ -107,7 +107,7 @@ namespace Group1A4.Data
             {
                 entity.ToTable("Instructor");
 
-                entity.HasIndex(e => e.InstructorId, "UQ__Instruct__A1EF56E9098D266D")
+                entity.HasIndex(e => e.InstructorId, "UQ__Instruct__A1EF56E97B1C967A")
                     .IsUnique();
 
                 entity.Property(e => e.InstructorId)
@@ -139,7 +139,7 @@ namespace Group1A4.Data
             {
                 entity.ToTable("Student");
 
-                entity.HasIndex(e => e.StudentId, "UQ__Student__2A33069B9EC97E0A")
+                entity.HasIndex(e => e.StudentId, "UQ__Student__2A33069B0F45EE18")
                     .IsUnique();
 
                 entity.Property(e => e.StudentId)

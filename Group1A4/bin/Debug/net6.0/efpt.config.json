@@ -31,7 +31,7 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "DIGIVICE.School",
+   "UiHint": "tonyw.School",
    "UncountableWords": null,
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,

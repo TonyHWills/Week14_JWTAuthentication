@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Group1A4.Data;
 using Group1A4.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Group1A4.Controllers
 {
@@ -20,7 +21,7 @@ namespace Group1A4.Controllers
         {
             _context = context;
         }
-
+        [Authorize]
         // GET: api/Students
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudents()
@@ -80,7 +81,7 @@ namespace Group1A4.Controllers
 
             return NoContent();
         }
-
+        [Authorize]
         // POST: api/Students
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
